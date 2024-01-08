@@ -1,0 +1,32 @@
+#display {
+    padding: 50px;
+    /* border: 2px solid black; */
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.line::after {
+    content: "";
+    display: block;
+    width: 170px;
+    border-bottom: 4px solid rgb(243, 41, 41);
+    margin-bottom: 10px;
+    margin-left: 44%;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    font-size: 40px;
+}
+
+tbody {
+    text-align: center;
+    font-size: 30px;
+}
